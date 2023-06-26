@@ -33,7 +33,7 @@ def ingest_data():
                 listado.append(Palabras[0:3])
                 listado[-1].append(' '.join(Palabras[4:]))
                 listado[-1][-1] += ' '
-            elif Palabras[0].isdigit():
+            else:
                 listado[-1][-1] += ' '.join(Palabras)
                 listado[-1][-1] += ' '
         
